@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//scrapyDemo/items.py=utf-8
+encoding//scrapyDemo/middlewares.py=utf-8
+encoding//scrapyDemo/pipelines.py=utf-8
+encoding//scrapyDemo/settings.py=utf-8
+encoding//scrapyDemo/spiders/dmoz_spider.py=utf-8
