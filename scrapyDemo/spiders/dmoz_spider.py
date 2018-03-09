@@ -15,7 +15,7 @@ class DmozSpider(scrapy.Spider):
          filename = response.url.split("/")[-2]
          with open(filename, 'wb') as f:
             f.write(response.body)
-#          print response.css('title::text').extract()
+            print response.css('title::text').extract()
 #          for quote in response.css('div.quote'):
 #             yield {
 #                 'text': ''.split(quote.css('span.text::text').extract_first()),
